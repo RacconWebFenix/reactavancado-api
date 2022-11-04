@@ -2,15 +2,12 @@
   "kind": "singleType",
   "collectionName": "landing_pages",
   "info": {
-    "name": "landingPage",
-    "description": ""
+    "name": "landingPage"
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
-  "pluginOptions": {},
   "attributes": {
     "logo": {
       "model": "file",
@@ -19,8 +16,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     },
     "header": {
       "type": "component",
@@ -40,8 +36,7 @@
     "sectionConcepts": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-concepts",
-      "required": true
+      "component": "page.section-concepts"
     },
     "sectionModules": {
       "type": "component",
@@ -57,8 +52,7 @@
     "pricingBox": {
       "type": "component",
       "repeatable": false,
-      "component": "page.pricing-box",
-      "required": true
+      "component": "page.pricing-box"
     },
     "sectionAboutUs": {
       "type": "component",
@@ -68,14 +62,12 @@
     "sectionReviews": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-reviews",
-      "required": true
+      "component": "page.section-reviews"
     },
     "sectionFaq": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-faq",
-      "required": true
+      "component": "page.section-faq"
     }
   }
 }
